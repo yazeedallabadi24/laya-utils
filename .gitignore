@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large Model weights (exceeds GitHub 100MB limit - generated via export_onnx.py or Docker)
+*.onnx
+*.onnx.data
+*.bin
+*.pt
+*.pth
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
